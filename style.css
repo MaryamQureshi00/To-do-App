@@ -1,0 +1,80 @@
+body {
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.main {
+    background-image: linear-gradient(to right, rgba(204, 47, 243, 0.401), rgb(125, 47, 243));
+    width: 24rem;
+    height: 27rem;
+    margin: 0 auto;
+    border-radius: 2rem;
+    box-shadow: 7px 7px 10px 7px #000000;
+
+}
+
+.child {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.child input {
+    margin-top: 2rem;
+    width: 148px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.child button {
+    padding: 8px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.child button:hover,
+#delet:hover,
+#edit:hover {
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+#delet {
+    margin-top: 20px;
+    background-color: rgb(234, 23, 51);
+    color: white;
+    border: none;
+    margin-left: 40px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#edit {
+    background-color: rgb(16, 235, 9);
+    padding: 5px;
+    color: white;
+    border: none;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+/* 
+@media screen and  (min-width: 576px) { .main{width: 100%;} }
+@media screen and  (min-width: 768px) { .main{width: 100%;} }
+@media screen and  (min-width: 992px) { .main{width: 100%;} }
+@media screen and  (min-width: 1200px) { .main{width: 100%;} } */
+#list {
+    text-decoration-color: ghostwhite;
+}
+
+#list li {
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+}
+
+.list {
+    text-decoration-color: rgb(42, 42, 179);
+}
